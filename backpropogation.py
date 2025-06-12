@@ -1,3 +1,5 @@
+#Mathematically solving a back propogation question with example try running it for better understanding
+
 import numpy as np
 
 # Activation function and its derivative
