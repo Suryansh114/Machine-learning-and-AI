@@ -1,1 +1,15 @@
+<h1>Natural Language Processing</h1><br>
+Language processing deal with computer understanding human language so it ususally involves converting text into binary. 
+This is done using libraries that vectorise strings and form a chain of matrix to interpret and preoccess text suitable for machine.
+In this model we have used multiple libraries:
 
+We are using the bad of words model in this project
+
+1. NLTK library
+This is used in order to tokenise text (extract words from a sentence)
+Then we remove stopwords (words which dont carry much meaning and are of no use during interpreting data using "from nltk.corpus import stopwords"
+Then we convert different forms of a word in its original form which is called stemming using "from nltk.stem.snowball import SnowballStemmer"
+Then we use Lemmatization which is a text normalization technique in natural language processing (NLP) that reduces words to their base or dictionary form, known as the lemma. It is better than stemming as it does not elimate text arbitarily
+
+2. sklearn.feature_extraction.text import CountVectorizer
+This is used to convert sentences into matrix so that data can be converted into binary (0,1). It sis essential to use in order to machine or model to work on
