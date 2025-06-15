@@ -1,8 +1,11 @@
-1. Error at Output Layer (Layer 2)
-We want to compute:
-∂L/∂W2,∂L/∂b2 
-Assume the loss function is Mean Squared Error:
-L=1/[2(y−y^)2]=1/[2(y−A2)2L] 
-Now compute the derivative of loss with respect to the activation:
-δ2=∂L/∂A2⋅∂A2/∂Z2 
-This δ2\delta_2δ2 is the error at the output layer.
+1. E rror at Output Layer (Layer 2)
+    We want to compute:
+    ∂L/∂W2,∂L/∂b2 
+
+    Assume the loss function is Mean Squared Error:
+    L=1/[2(y−y^)2]=1/[2(y−A2)2L] 
+
+    Now compute the derivative of loss with respect to the activation:
+    δ2=∂L/∂A2⋅∂A2/∂Z2=(A2−y)⋅σ′(Z2)\delta_2 
+
+    This δ2\delta_2δ2 is the error at the output layer.
