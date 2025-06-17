@@ -1,3 +1,5 @@
+This is a learning project from jovian.com
+
 <h1>Natural Language Processing</h1><br>
 Language processing deal with computer understanding human language so it ususally involves converting text into binary. 
 This is done using libraries that vectorise strings and form a chain of matrix to interpret and preoccess text suitable for machine.
