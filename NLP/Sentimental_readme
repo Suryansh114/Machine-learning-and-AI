@@ -1,1 +1,11 @@
-So here i'll be explaining the code of "sentimental_code"
+In this project, I'll be explaining the code for "sentimental_code", which performs sentiment analysis on movie reviews.
+The dataset used is sourced from Kaggle: Sentiment Analysis on Movie Reviews. Each entry in the dataset represents a sentence or a part of a sentence, along with a sentiment label ranging from 0 to 4:
+0 – Negative
+1 – Somewhat Negative
+2 – Neutral
+3 – Somewhat Positive
+4 – Positive
+These labels reflect the emotional tone of each review snippet, indicating how people have responded to a movie.
+Our objective is to predict the sentiment for unseen (test) data where the sentiment labels are not provided. Essentially, this is a multi-class classification problem in machine learning. However, selecting the right model is crucial for achieving good performance.
+
+To gain a better understanding of the dataset, we began with exploratory data analysis, visualizing various distributions and patterns within the data to inform our modeling approach.
